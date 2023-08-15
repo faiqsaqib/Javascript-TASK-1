@@ -1,0 +1,473 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  background: rgba(0, 0, 0, 0.3725490196);
+}
+
+header {
+  width: 100%;
+}
+header .container-s {
+  width: 100%;
+  height: 90vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(/images/banner1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+  flex-wrap: nowrap;
+  padding: 30px;
+}
+header .container-s .box {
+  width: 50%;
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+header .container-s .box .icon {
+  padding: 50px 0px 0px;
+  display: flex;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 30px;
+}
+header .container-s .box .text {
+  color: #ffffff;
+  font-size: xx-large;
+  text-align: center;
+  padding: 5px;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+header .container-s .box .form {
+  display: flex;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
+header .container-s .box .form > div {
+  background: transparent;
+  padding: 0.4rem 1rem;
+}
+header .container-s .box .form > div input[type=search] {
+  width: 19vw;
+  padding: 12px;
+  font-size: 0.9rem;
+  color: rgb(44, 43, 43);
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.438);
+  border-radius: 5px;
+}
+header .container-s .box .form > div input[type=search] input[type=search]::-moz-placeholder {
+  color: rgb(136, 134, 134);
+}
+header .container-s .box .form > div input[type=search] input[type=search]::placeholder {
+  color: rgb(136, 134, 134);
+}
+header .container-s .box .form > div .btn-primary {
+  display: inline-block;
+  padding: 0.6rem 2.6rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 3s ease;
+  font-size: 1rem;
+  background: rgba(255, 0, 0, 0.758);
+  color: #ffffff;
+}
+header .container-s .box .form > div .btn-primary:hover {
+  opacity: 0.7;
+}
+
+nav {
+  width: 100%;
+  background: #ffffff;
+  top: 0;
+  position: fixed;
+  font-family: sans-serif;
+}
+nav .container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 25px;
+}
+nav .container .logo {
+  font-size: xx-large;
+  padding: 10px;
+}
+nav .container .logo span {
+  color: rgba(255, 0, 0, 0.758);
+}
+nav .container .navigate {
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+  flex-wrap: wrap;
+  padding: 0px 0px 0px 50px;
+}
+nav .container .navigate span {
+  color: rgba(255, 0, 0, 0.758);
+}
+
+nav .container .navigate a:hover{
+  color: rgba(255, 0, 0, 0.758);
+  transition: all 0.5s ease;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+
+nav .container .navigate a {
+  text-decoration: none;
+  margin: 0 13px;
+  color: #000;
+}
+nav .container .login {
+  width: auto;
+  padding: 10px;
+  display: flex;
+  align-items: center;
+}
+nav .container .login i {
+  margin: 0 20px;
+}
+nav .container .login .btn-primary {
+  display: inline-block;
+  padding: 0.6rem 1.6rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 3s ease;
+  font-size: 1rem;
+  background: rgba(255, 0, 0, 0.758);
+  color: #ffffff;
+}
+nav .container .login .btn-primary:hover {
+  opacity: 0.8;
+}
+
+main {
+  width: 100%;
+}
+main .container1 {
+  width: 100%;
+  background: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+main .container1 .div1 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: none;
+  flex-wrap: wrap;
+  gap: 30px;
+  padding: 80px 0px 0px;
+}
+main .container1 .div1 .btn-primary {
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  /* transition: all 3s ease; */
+  font-size: 1rem;
+  background: rgba(255, 0, 0, 0.758);
+  color: #ffffff;
+}
+
+main .container1 .div1 .b{
+  display: inline-block;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  /* transition: all 3s ease; */
+  font-size: 1rem;
+  background: white;
+  color: black;
+}
+
+main .container1 .div1 .btn-primary:hover {
+  opacity: 0.8;
+  cursor: pointer;
+  transition: all 0.5s ease;
+  font-size: 1rem;
+  background: rgba(255, 0, 0, 0.758);
+  color: #ffffff;
+  -webkit-transition: all 0.5s ease;
+  -moz-transition: all 0.5s ease;
+  -ms-transition: all 0.5s ease;
+  -o-transition: all 0.5s ease;
+}
+main .container1 .div1 a {
+  color: #000;
+  text-decoration: none;
+}
+main .container1 .div2 {
+  width: 90%;
+  padding: 55px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 20px;
+}
+main .container1 .div2 .gallery__img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 10px;
+}
+
+main-2 {
+  width: 100%;
+}
+main-2 .container2 {
+  background: #ffffff;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+main-2 .container2 .div-one {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 25px;
+}
+main-2 .container2 .div-one > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+main-2 .container2 .div-one #info {
+  font-size: xx-large;
+}
+main-2 .container2 .div-one #info span {
+  color: rgba(255, 0, 0, 0.758);
+}
+main-2 .container2 .div-one #mem {
+  font-size: small;
+}
+main-2 .container2 .div-one #para {
+  text-align: center;
+  line-height: 24px;
+}
+main-2 .container2 .div-one #name {
+  font-size: larger;
+}
+main-2 .container2 .div-one .row-1 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+main-2 .container2 .div-one .row-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+footer {
+  width: 100%;
+}
+footer .container3 {
+  width: 100%;
+  background: rgba(30, 30, 31, 0.8862745098);
+  padding: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: nowrap;
+}
+footer .container3 .rec1 {
+  width: 90%;
+  border: 1px solid rgb(136, 134, 134);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+footer .container3 .rec1 > div {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  color: #ffffff;
+}
+footer .container3 .rec1 > div p {
+  font-size: x-large;
+}
+footer .container3 .rec1 .second {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 0;
+  background: transparent;
+  padding: 0.4rem 1rem;
+}
+footer .container3 .rec1 .second input[type=search] {
+  width: 24vw;
+  padding: 9px;
+  font-size: 0.9rem;
+  color: rgb(44, 43, 43);
+  outline: none;
+  border: 1px solid rgba(128, 128, 128, 0.438);
+  border-radius: 5px;
+}
+footer .container3 .rec1 .second input[type=search] input[type=search]::-moz-placeholder {
+  color: rgb(136, 134, 134);
+}
+footer .container3 .rec1 .second input[type=search] input[type=search]::placeholder {
+  color: rgb(136, 134, 134);
+}
+footer .container3 .rec1 .second .btn-primary {
+  display: inline-block;
+  padding: 0.6rem 2.6rem;
+  font-weight: 500;
+  border-radius: 0.3rem;
+  cursor: pointer;
+  transition: all 3s ease;
+  font-size: 1rem;
+  background: rgba(255, 0, 0, 0.758);
+  color: #ffffff;
+}
+footer .container3 .rec1 .second .btn-primary:hover {
+  opacity: 0.8;
+}
+footer .container3 .rec2 {
+  width: 90%;
+  padding: 35px 0px 0px;
+  border-bottom: 1px solid rgb(136, 134, 134);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+footer .container3 .rec2 .col1 {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer .container3 .rec2 .col1 a {
+  text-decoration: none;
+  color: rgb(136, 134, 134);
+}
+footer .container3 .rec2 .col1 span {
+  line-height: 20px;
+  color: rgb(136, 134, 134);
+}
+footer .container3 .rec2 .col1 p {
+  color: #ffffff;
+  font-size: x-large;
+}
+footer .container3 .rec2 .col1 .icons {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  text-align: center;
+}
+footer .container3 .rec2 .col1 .icons i {
+  display: block;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  background: #ffffff;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 855px) {
+  header .form > div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container3 .rec1 {
+    width: 80%;
+    flex-wrap: nowrap;
+  }
+}
+@media screen and (max-width: 630px) {
+  nav .container {
+    flex-direction: column;
+  }
+  header .container-s {
+    background-position: center;
+  }
+  header .container-s .box {
+    width: 100%;
+    padding: 100px;
+    flex-direction: row;
+  }
+  header .container-s .box .icon {
+    display: none;
+  }
+  header .container-s .box .text {
+    font-size: x-large;
+  }
+  header .container-s .box .form > div input[type=search] {
+    width: 39vw;
+  }
+  footer .container3 .rec1 {
+    flex-direction: column;
+  }
+  footer .container3 .rec1 .second {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer .container3 .rec2 {
+    gap: 20px;
+  }
+}
+@media screen and (max-width: 420px) {
+  header .container-s .box {
+    padding: 150px;
+  }
+  header .container-s .box .text {
+    font-size: medium;
+  }
+  footer .container3 .rec1 .second input[type=search] {
+    width: 38vw;
+  }
+}
+@media screen and (max-width: 340px) {
+  footer .container3 .rec1 .second {
+    align-items: normal;
+  }
+  footer .container3 .rec1 .second input[type=search] {
+    width: 28vw;
+  }
+  footer .container3 .rec1 .second .btn-primary {
+    padding: 0.6rem 1rem;
+  }
+  footer .container3 .rec2 {
+    justify-content: normal;
+  }
+}/*# sourceMappingURL=assign 3.css.map */
